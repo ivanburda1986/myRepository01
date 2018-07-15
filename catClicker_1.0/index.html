@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>CatCliker-Refactored</title>
+</head>
+
+<body>
+  <ul id="catList"></ul>
+
+  <div id="cat">
+    <h2 id="catName">default</h2>
+    <div id="catCount">0</div>
+    <img id="catImage" src="" alt="default">
+  </div>
+
+
+  <div id="adminMode">
+          <div id="adminButton">
+                <button type="button">Admin Mode</button>
+          </div>
+
+          <div id="adminControls">
+                <form>
+                    <div>
+                      <label for="admin-CatName">Name</label>
+                      <input type="text" id="admin-CatName">
+                    </div>
+
+                    <div>
+                      <label for="admin-imgUrl">Image Url</label>
+                      <input type="url" id="admin-imgUrl">
+                    </div>
+
+                    <div>
+                      <label for="admin-counter">Clicks</label>
+                      <input type="number" id="admin-counter">
+                    </div>
+                </form>
+
+                <button id="cancelButton" type="button">Cancel</button>
+                <button id="saveButton" type="button">Save</button>
+        </div>
+
+  </div>
+
+
+
+
+
+  <script src="js.js"></script>
+</body>
+
+</html>
